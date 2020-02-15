@@ -13,7 +13,7 @@ const  Nav = () => {
                         height="30"
                         className="d-inline-block align-top"
                     />{' '}
-                    React Bootstrap
+                    PQR
                 </Navbar.Brand>
             </Navbar>
     )

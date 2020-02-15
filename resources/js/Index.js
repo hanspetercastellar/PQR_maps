@@ -6,10 +6,10 @@
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
 //Importando estylos de bootstrap
 import '../sass/bootstrap.min.css'
 import '../sass/app.css'
+import 'leaflet/dist/leaflet.css'
 
 //iniciando componentes de presentacion
 import Landing from "./components/landing/landing";
@@ -24,7 +24,7 @@ import {
     Link
 } from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-
+import Mapa from "./components/mapa/Mapa";
 
 export default class Index extends Component {
     render() {
@@ -32,12 +32,12 @@ export default class Index extends Component {
         <Router>
              <Nav></Nav>
 
-                 <div>
-                     <Col md={4}>
+                 <div className={'content-body'}>
+                     <Col md={4} className={'formuContent'} >
                          <SidebarSection/>
                      </Col>
                      <Col md={8}>
-                         <h1>Aqui va el mapa</h1>
+                         <Mapa></Mapa>
                      </Col>
                  </div>
 
