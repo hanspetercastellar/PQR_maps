@@ -15,15 +15,7 @@ class Infraestructuras extends Migration
     {
         Schema::create('infraestructuras', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('ifr_id');
-            $table->foreign('ifr_id')->references('id')->on('infraestructuras');
-            $table->integer('usuario_id');
-            $table->foreign('usuario_id')->references('id')->on('usuarios');
-            $table->string('barrio');
-            $table->string('direccion');
-            $table->integer('latitud');
-            $table->integer('longitud');
-            $table->string('descripcion');
+           $table->string('descripcion');
             $table->timestamp('created_at')->nullable();
         });
     }
@@ -33,8 +25,9 @@ class Infraestructuras extends Migration
      *
      * @return void
      */
+
     public function down()
     {
-        //
+        Schema::dropIfExists('infraestructuras');
     }
 }

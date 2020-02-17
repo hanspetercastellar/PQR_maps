@@ -17,8 +17,9 @@ class TableQpr extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('ifr_id');
             $table->foreign('ifr_id')->references('id')->on('infraestructuras');
+            $table->string('codigo_infraestructura');
             $table->integer('usuario_id');
-            $table->foreign('usuario_id')->references('id')->on('usuarios');
+            $table->foreign('usuario_id')->references('id')->on('users');
             $table->string('barrio');
             $table->string('direccion');
             $table->integer('latitud');
@@ -35,6 +36,6 @@ class TableQpr extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('table_pqr');
     }
 }

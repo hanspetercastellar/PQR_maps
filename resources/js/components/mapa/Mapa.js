@@ -36,6 +36,11 @@ class Mapa extends Component{
                             A pretty CSS3 popup. <br /> Easily customizable.
                         </Popup>
                     </Marker>
+                    <Marker position={[10.9879,-74.7879]} icon={myIcon}>
+                        <Popup>
+                            A pretty CSS3 popup. <br /> Easily customizable.
+                        </Popup>
+                    </Marker>
                 </Map>
             </>
 

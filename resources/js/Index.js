@@ -1,7 +1,7 @@
 /*
 * Fecha 12/02/2020
 * Por: Hans castellar
-* Descripcion: Componente principar, Aqui se inicia toda la aplicacion
+* Descripcion: Componente para manejar el estado y presentar el mapa y el formulario
 * */
 
 import React, { Component } from 'react';
@@ -26,15 +26,51 @@ import {
 import {Col, Container, Row} from "react-bootstrap";
 import Mapa from "./components/mapa/Mapa";
 
+
+
 export default class Index extends Component {
+
+ constructor(props) {
+     super(props);
+
+     this.state = {
+         dataForm: {
+             problems: [],
+             infr: []
+         },
+         error:null
+     }
+ }
+
+
+  async componentDidMount(){
+        try {
+            let Infrs = await fetch('/getFormData');
+             let infrs_data = await Infrs.json();
+            const [problems,infr] = infrs_data;
+             this.setState({
+                     problems:problems,
+                     infr:infr
+             })
+            console.log(this.state.problems)
+            return
+        }catch (e) {
+
+        }
+  }
+
+
+
+
     render() {
+
         return (
         <Router>
              <Nav></Nav>
 
                  <div className={'content-body'}>
                      <Col md={4} className={'formuContent'} >
-                         <SidebarSection/>
+
                      </Col>
                      <Col md={8}>
                          <Mapa></Mapa>

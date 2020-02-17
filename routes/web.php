@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/users','mapController@getUsers');
+Route::post('/store','mapController@store');
+Route::get('/getFormData','mapController@getFormData');

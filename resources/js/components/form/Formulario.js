@@ -3,9 +3,12 @@ import React, { useState } from 'react';
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
+import {jsonp} from "esri-leaflet/src/Request";
 
-const Formulario = ()=> {
+const Formulario = ({dataForm})=> {
     const [validated, setValidated] = useState(false);
+
+    var [problem,infr] = dataForm;
 
     const handleSubmit = event => {
         const form = event.currentTarget;
@@ -15,9 +18,12 @@ const Formulario = ()=> {
         }
 
         setValidated(true);
+        console.log(dataForm)
     };
 
+
     return (
+
         <>
             <h1>Registrar PQR</h1>
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -25,11 +31,11 @@ const Formulario = ()=> {
                     <Form.Group as={Col} md="6" controlId="validationCustom01">
                         <Form.Label>Tipo de Infraestructura</Form.Label>
                         <Form.Control name='infraestructura' as="select">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+
+                        {/*    {infr.map((el,i)=>(
+                                    <option key={i+1} value={el.id}>{el.descripcion}</option>
+                                )
+                            )}*/}
                         </Form.Control>
                         <Form.Control.Feedback>Ok!</Form.Control.Feedback>
                         <Form.Control.Feedback type="invalid">
@@ -42,7 +48,7 @@ const Formulario = ()=> {
                             required
                             type="text"
                             name="codigo"
-                            placeholder="Last name"
+                            placeholder="Alfanumerico"
                             defaultValue="Otto"
                         />
                         <Form.Control.Feedback>Ok!</Form.Control.Feedback>
@@ -62,7 +68,7 @@ const Formulario = ()=> {
                             <option>5</option>
                         </Form.Control>
                         <Form.Control.Feedback type="invalid">
-                            Please provide a valid city.
+                            Este Campo es Requerido
                         </Form.Control.Feedback>
                     </Form.Group>
                 </Form.Row>
@@ -113,17 +119,24 @@ const Formulario = ()=> {
                 </Form.Row>
                 <Form.Row>
                     <Form.Group as={Col} md="6" controlId="validationCustom03">
-                        <Form.Label>Nombres y Apellidos del Usuario</Form.Label>
-                        <Form.Control type="text" placeholder="City" name="nombre" required />
+                        <Form.Label>Nombres</Form.Label>
+                        <Form.Control type="text" placeholder="Nombre" name="nombre" required />
                         <Form.Control.Feedback type="invalid">
-                            Please provide a valid city.
+                            Este Campo es Requerido
+                        </Form.Control.Feedback>
+                    </Form.Group>
+                    <Form.Group as={Col} md="6" controlId="validationCustom03">
+                        <Form.Label>Apellidos</Form.Label>
+                        <Form.Control type="text" placeholder="Apellidos" name="apellido" required />
+                        <Form.Control.Feedback type="invalid">
+                            Este Campo es Requerido
                         </Form.Control.Feedback>
                     </Form.Group>
                     <Form.Group as={Col} md="6" controlId="validationCustom04">
                         <Form.Label>Telefono</Form.Label>
-                        <Form.Control type="text" placeholder="State" name="telefono" required />
+                        <Form.Control type="text" placeholder="Telefono" name="telefono" required />
                         <Form.Control.Feedback type="invalid">
-                            Please provide a valid state.
+                            Este Campo es Requerido
                         </Form.Control.Feedback>
                     </Form.Group>
                 </Form.Row>

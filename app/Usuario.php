@@ -2,13 +2,11 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends Authenticatable
+class Usuario extends Model
 {
-    use Notifiable;
+    protected $table = 'usuarios';
 
     /**
      * The attributes that are mass assignable.
@@ -20,7 +18,7 @@ class User extends Authenticatable
     ];
 
 
-    public function table_pqr(){
+    public function table_pqrs(){
         return $this->belongsTo(Table_pqr::class);
     }
 }
