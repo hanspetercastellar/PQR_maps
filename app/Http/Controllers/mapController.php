@@ -38,10 +38,13 @@ class mapController extends Controller
    * Autor: Hans Castellar
    * Fecha: feb, 16 del 2020
    * */
-    public function getFormData(){
-        $formData =[$this->getProblems(),$this->getInfrs()];
+    public function getFormData($id=false){
+        if($id){
+           return  $this->getProblems();
+        }else{
+          return  $this->getInfrs();
+        }
 
-        return  json_encode($formData);
     }
 
     /*
@@ -60,7 +63,7 @@ class mapController extends Controller
     * Fecha: feb, 16 del 2020
     * */
     private function getProblems(){
-        return json_encode(Infraestructura::all());
+        return json_encode(Problemas::all());
     }
 
 }

@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Route::get('/users','mapController@getUsers');
 Route::post('/store','mapController@store');
-Route::get('/getFormData','mapController@getFormData');
+Route::get('/getFormData/{id?}','mapController@getFormData');

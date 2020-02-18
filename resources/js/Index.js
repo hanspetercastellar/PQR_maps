@@ -30,35 +30,6 @@ import Mapa from "./components/mapa/Mapa";
 
 export default class Index extends Component {
 
- constructor(props) {
-     super(props);
-
-     this.state = {
-         dataForm: {
-             problems: [],
-             infr: []
-         },
-         error:null
-     }
- }
-
-
-  async componentDidMount(){
-        try {
-            let Infrs = await fetch('/getFormData');
-             let infrs_data = await Infrs.json();
-            const [problems,infr] = infrs_data;
-             this.setState({
-                     problems:problems,
-                     infr:infr
-             })
-            console.log(this.state.problems)
-            return
-        }catch (e) {
-
-        }
-  }
-
 
 
 
@@ -70,7 +41,7 @@ export default class Index extends Component {
 
                  <div className={'content-body'}>
                      <Col md={4} className={'formuContent'} >
-
+                         <SidebarSection/>
                      </Col>
                      <Col md={8}>
                          <Mapa></Mapa>

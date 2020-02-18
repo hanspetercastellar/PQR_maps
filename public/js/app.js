@@ -88566,39 +88566,23 @@ module.exports = function(module) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _sass_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sass/bootstrap.min.css */ "./resources/sass/bootstrap.min.css");
-/* harmony import */ var _sass_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _sass_app_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sass/app.css */ "./resources/sass/app.css");
-/* harmony import */ var _sass_app_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_app_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! leaflet/dist/leaflet.css */ "./node_modules/leaflet/dist/leaflet.css");
-/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_landing_landing__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/landing/landing */ "./resources/js/components/landing/landing.js");
-/* harmony import */ var _components_navbar_Navbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/navbar/Navbar */ "./resources/js/components/navbar/Navbar.js");
-/* harmony import */ var _components_sidebar_SidebarSection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/sidebar/SidebarSection */ "./resources/js/components/sidebar/SidebarSection.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _components_mapa_Mapa__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/mapa/Mapa */ "./resources/js/components/mapa/Mapa.js");
-
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _sass_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/bootstrap.min.css */ "./resources/sass/bootstrap.min.css");
+/* harmony import */ var _sass_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sass_app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sass/app.css */ "./resources/sass/app.css");
+/* harmony import */ var _sass_app_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_app_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! leaflet/dist/leaflet.css */ "./node_modules/leaflet/dist/leaflet.css");
+/* harmony import */ var leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(leaflet_dist_leaflet_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_landing_landing__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/landing/landing */ "./resources/js/components/landing/landing.js");
+/* harmony import */ var _components_navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/navbar/Navbar */ "./resources/js/components/navbar/Navbar.js");
+/* harmony import */ var _components_sidebar_SidebarSection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/sidebar/SidebarSection */ "./resources/js/components/sidebar/SidebarSection.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _components_mapa_Mapa__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/mapa/Mapa */ "./resources/js/components/mapa/Mapa.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -88641,98 +88625,35 @@ var Index =
 function (_Component) {
   _inherits(Index, _Component);
 
-  function Index(props) {
-    var _this;
-
+  function Index() {
     _classCallCheck(this, Index);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Index).call(this, props));
-    _this.state = {
-      dataForm: {
-        problems: [],
-        infr: []
-      },
-      error: null
-    };
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(Index).apply(this, arguments));
   }
 
   _createClass(Index, [{
-    key: "componentDidMount",
-    value: function () {
-      var _componentDidMount = _asyncToGenerator(
-      /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-        var Infrs, infrs_data, _infrs_data, problems, infr;
-
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                _context.prev = 0;
-                _context.next = 3;
-                return fetch('/getFormData');
-
-              case 3:
-                Infrs = _context.sent;
-                _context.next = 6;
-                return Infrs.json();
-
-              case 6:
-                infrs_data = _context.sent;
-                _infrs_data = _slicedToArray(infrs_data, 2), problems = _infrs_data[0], infr = _infrs_data[1];
-                this.setState({
-                  problems: problems,
-                  infr: infr
-                });
-                console.log(this.state.problems);
-                _context.next = 14;
-                break;
-
-              case 12:
-                _context.prev = 12;
-                _context.t0 = _context["catch"](0);
-
-              case 14:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this, [[0, 12]]);
-      }));
-
-      function componentDidMount() {
-        return _componentDidMount.apply(this, arguments);
-      }
-
-      return componentDidMount;
-    }()
-  }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_navbar_Navbar__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: 'content-body'
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
         md: 4,
         className: 'formuContent'
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_sidebar_SidebarSection__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        dataInfr: this.state.infr,
-        dataProblem: this.state.problems
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_sidebar_SidebarSection__WEBPACK_IMPORTED_MODULE_7__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
         md: 8
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_mapa_Mapa__WEBPACK_IMPORTED_MODULE_11__["default"], null))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["Route"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_mapa_Mapa__WEBPACK_IMPORTED_MODULE_10__["default"], null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__["Route"], {
         path: "/"
       })));
     }
   }]);
 
   return Index;
-}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
 
 if (document.getElementById('app')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render(react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Index, null), document.getElementById('app'));
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Index, null), document.getElementById('app'));
 }
 
 /***/ }),
@@ -88802,13 +88723,23 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-bootstrap/Form */ "./node_modules/react-bootstrap/esm/Form.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/InputGroup */ "./node_modules/react-bootstrap/esm/InputGroup.js");
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
-/* harmony import */ var esri_leaflet_src_Request__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! esri-leaflet/src/Request */ "./node_modules/esri-leaflet/src/Request.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Form */ "./node_modules/react-bootstrap/esm/Form.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_InputGroup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/InputGroup */ "./node_modules/react-bootstrap/esm/InputGroup.js");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+/* harmony import */ var esri_leaflet_src_Request__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! esri-leaflet/src/Request */ "./node_modules/esri-leaflet/src/Request.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_7__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -88824,17 +88755,30 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-var Formulario = function Formulario(_ref) {
-  var dataForm = _ref.dataForm;
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
+var Formulario = function Formulario(_ref) {
+  var submit = _ref.submit,
+      change = _ref.change;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
       _useState2 = _slicedToArray(_useState, 2),
       validated = _useState2[0],
       setValidated = _useState2[1];
 
-  var _dataForm = _slicedToArray(dataForm, 2),
-      problem = _dataForm[0],
-      infr = _dataForm[1];
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])([]),
+      _useState4 = _slicedToArray(_useState3, 2),
+      infra = _useState4[0],
+      setInfra = _useState4[1];
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])([]),
+      _useState6 = _slicedToArray(_useState5, 2),
+      problem = _useState6[0],
+      setProblem = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
+      _useState8 = _slicedToArray(_useState7, 2),
+      isRndered = _useState8[0],
+      setIsrendered = _useState8[1];
 
   var handleSubmit = function handleSubmit(event) {
     var form = event.currentTarget;
@@ -88845,135 +88789,211 @@ var Formulario = function Formulario(_ref) {
     }
 
     setValidated(true);
-    console.log(dataForm);
+    submit(event);
   };
 
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Registrar PQR"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"], {
+  var getData =
+  /*#__PURE__*/
+  function () {
+    var _ref2 = _asyncToGenerator(
+    /*#__PURE__*/
+    _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var problems, Infrs, infrs_data;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.prev = 0;
+              _context.next = 3;
+              return fetch('/getFormData/1');
+
+            case 3:
+              problems = _context.sent;
+              _context.next = 6;
+              return problems.json();
+
+            case 6:
+              problems = _context.sent;
+              _context.next = 9;
+              return fetch('/getFormData');
+
+            case 9:
+              Infrs = _context.sent;
+              _context.next = 12;
+              return Infrs.json();
+
+            case 12:
+              infrs_data = _context.sent;
+              setInfra(infrs_data);
+              setProblem(problems);
+              _context.next = 19;
+              break;
+
+            case 17:
+              _context.prev = 17;
+              _context.t0 = _context["catch"](0);
+
+            case 19:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee, null, [[0, 17]]);
+    }));
+
+    return function getData() {
+      return _ref2.apply(this, arguments);
+    };
+  }();
+
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    if (!isRndered) {
+      getData();
+      setIsrendered(true);
+    }
+  });
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, "Registrar PQR"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"], {
     noValidate: true,
     validated: validated,
     onSubmit: handleSubmit
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom01"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Tipo de Infraestructura"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Tipo de Infraestructura"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     name: "infraestructura",
+    onChange: change,
     as: "select"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }, infra.map(function (el, i) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", {
+      key: i,
+      value: el.id
+    }, el.descripcion);
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom02"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Codigo de infraestructura"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Codigo de infraestructura"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
+    onChange: change,
     required: true,
     type: "text",
     name: "codigo",
-    placeholder: "Alfanumerico",
-    defaultValue: "Otto"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+    placeholder: "Alfanumerico"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "12",
     controlId: "validationCustom03"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Tipo de Problema"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Tipo de Problema"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     name: "tipoProblema",
-    as: "select"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", null, "1"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", null, "2"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", null, "3"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", null, "4"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", null, "5")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+    as: "select",
+    onChange: change
+  }, problem.map(function (el, i) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("option", {
+      key: i,
+      value: el.id
+    }, el.descripcion);
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom03"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Barrio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Barrio"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     type: "text",
     name: "barrio",
+    onChange: change,
     placeholder: "Barrio",
     required: true
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom04"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Direccion del Barrio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Direccion del Barrio"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     type: "text",
     name: "direccion",
+    onChange: change,
     placeholder: "Direccion",
     required: true
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom03"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Latitud"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Latitud"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     type: "text",
     name: "latitud",
+    onChange: change,
     placeholder: "Barrio",
     required: true
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom04"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Longitud"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Longitud"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     type: "text",
     name: "longitud",
+    onChange: change,
     placeholder: "Direccion",
     required: true
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, null, "Ok!"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "12",
     controlId: "validationCustom03"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Descripcion del Problema"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Descripcion del Problema"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     as: "textarea",
+    onChange: change,
     name: "descripcion",
     rows: "3"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Please provide a valid city."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Please provide a valid city."))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Row, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom03"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Nombres"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Nombres"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     type: "text",
     placeholder: "Nombre",
+    onChange: change,
     name: "nombre",
     required: true
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom03"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Apellidos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Apellidos"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     type: "text",
     placeholder: "Apellidos",
+    onChange: change,
     name: "apellido",
     required: true
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, {
-    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"],
+  }, "Este Campo es Requerido")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Group, {
+    as: react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"],
     md: "6",
     controlId: "validationCustom04"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Label, null, "Telefono"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Label, null, "Telefono"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control, {
     type: "text",
     placeholder: "Telefono",
+    onChange: change,
     name: "telefono",
     required: true
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Control.Feedback, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1__["default"].Control.Feedback, {
     type: "invalid"
-  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Group, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_0__["default"].Check, {
-    required: true,
-    label: "Agree to terms and conditions",
-    feedback: "You must agree before submitting."
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Este Campo es Requerido"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
     block: true,
     size: "lg",
     variant: "success",
@@ -88981,6 +89001,7 @@ var Formulario = function Formulario(_ref) {
   }, "Registrar")));
 };
 
+Formulario.PropTypes = {};
 /* harmony default export */ __webpack_exports__["default"] = (Formulario);
 
 /***/ }),
@@ -89140,20 +89161,163 @@ var Nav = function Nav() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _form_Formulario__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../form/Formulario */ "./resources/js/components/form/Formulario.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _form_Formulario__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../form/Formulario */ "./resources/js/components/form/Formulario.js");
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
 
-var SidebarSection = function SidebarSection(_ref) {
-  var dataForm = _ref.dataForm;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: 'section-form-content'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_form_Formulario__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    dataForm: dataForm
-  })));
-};
+
+var SidebarSection =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(SidebarSection, _React$Component);
+
+  function SidebarSection(props) {
+    var _this;
+
+    _classCallCheck(this, SidebarSection);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(SidebarSection).call(this, props));
+    _this.state = {
+      dataForm: {
+        infraestructura: '',
+        codigo: '',
+        tipoProblema: '',
+        barrio: '',
+        direccion: '',
+        latitud: '',
+        longitud: '',
+        descripcion: '',
+        nombre: '',
+        apellido: '',
+        telefono: ''
+      },
+      pqrs: [],
+      error: null
+    };
+    _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
+    _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(SidebarSection, [{
+    key: "handleSubmit",
+    value: function () {
+      var _handleSubmit = _asyncToGenerator(
+      /*#__PURE__*/
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(e) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                e.preventDefault();
+
+                try {
+                  /*       let config = {
+                             method: 'POST',
+                             headers:{
+                                 'Accept':'application/json',
+                                 'Content-Type': 'application/json'
+                             },
+                             body: JSON.stringify(this.state.dataForm)
+                         }
+                         let res = await fetch()
+                         let data = await res.json()*/
+                  this.setState({
+                    pqrs: this.state.pqrs.concat(this.state.dataForm)
+                  });
+                  console.log(this.state.pqrs);
+                } catch (error) {}
+
+              case 2:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function handleSubmit(_x) {
+        return _handleSubmit.apply(this, arguments);
+      }
+
+      return handleSubmit;
+    }()
+  }, {
+    key: "handleChange",
+    value: function () {
+      var _handleChange = _asyncToGenerator(
+      /*#__PURE__*/
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2(e) {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                this.setState({
+                  dataForm: _objectSpread({}, this.state.dataForm, _defineProperty({}, e.target.name, e.target.value))
+                });
+                console.log(this.state.dataForm);
+
+              case 2:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function handleChange(_x2) {
+        return _handleChange.apply(this, arguments);
+      }
+
+      return handleChange;
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+        className: 'section-form-content'
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_form_Formulario__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        submit: this.handleSubmit,
+        change: this.handleChange
+      })));
+    }
+  }]);
+
+  return SidebarSection;
+}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (SidebarSection);
 
